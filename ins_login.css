@@ -1,0 +1,201 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    /* margin: auto;
+     */
+    /* height: 500px;
+    width: 500px;
+    background-color: brown; */
+     /* position: fixed;
+    top: 16%;
+    left: 32%;
+   */
+   display: flex;
+   justify-content: center;
+   padding-top: 100px;
+
+}
+
+h1{
+    font-family: "Grey Qo", cursive;
+    
+      
+}
+
+#img1{
+    height: 420px;
+    
+}
+.con1{
+    padding: 10px 10px 5px 10px;
+}
+
+.con2{
+    padding: 10px 10px 5px 40px;
+    padding-top: 20px;
+   
+
+   
+
+
+
+}
+.log{
+    border: 1px solid rgb(94, 94, 94);
+    /* padding: 15px; */
+    width: 252px;
+    text-align: center;
+    padding: 5px; 
+
+  
+
+}
+
+.bt1{
+    text-align: center;
+    background-color: rgb(34, 167, 245);
+    border-radius: 5px;
+    width: 210px;
+    border: 4px;
+    color: white;
+}
+.hr{
+   display: flex;
+   font-size: small;
+  
+}
+hr{
+    width: 70px;
+}
+.hrf{
+    display: flex;
+    align-items: center;
+     padding-left: 35px;
+    
+
+}
+
+.fbp{
+    text-decoration: none;  
+    font-size: small;
+}
+.main2{
+    border: 1px solid rgb(94, 94, 94);
+    margin-top: 7px;
+    width: 252px;
+    text-align: center;
+    padding: 5px; 
+    font-size: small;
+}
+
+.app{
+    /* align-items: center; */
+    /* padding-left: 80px; */
+text-align: center;
+font-size: small;
+
+}
+
+.bts{
+background-color: black;
+color: white;
+height: 45px;
+width: 130px;
+font-size: 8px;
+border-radius: 8px;
+}
+
+ul{
+   
+margin: auto;
+    
+}
+ ul>li{
+    /* background-color: black;
+    color: rgb(247, 247, 247); */
+    width: 70px;
+    display: inline-block;
+    align-content: center;
+   
+
+ }
+ ul li a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+ }
+ ul li a:hover{
+    transform: scale(1.5);
+    transition: 2s;
+    background-color: rgb(4, 121, 189);
+    color: White;
+ }
+
+ .end{
+    display: flex;
+    justify-content: center;
+
+ }
+
+ select{
+    border: 2px rgb(252, 252, 253) solid;
+    font-size: 12px;
+    color: gray;
+}
+
+.meta{
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top:-10px;
+    color: gray;
+}
+
+
+
+/*media queries*/
+/* Default styles (for small screens like mobile devices) */
+body {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Medium screens (like tablets, smaller laptops) */
+@media (min-width: 600px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+/* Large screens (like desktops) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        padding: 30px;
+    }
+}
+
+/* High-DPI screens (e.g., Retina displays) */
+@media (min-resolution: 2dppx) {
+    body {
+        font-size: 17px;
+    }
+
+    .high-res-image {
+        background-image: url('image@2x.png');
+    }
+}
+
+/* Standard DPI screens */
+@media (max-resolution: 1.99dppx) {
+    body {
+        font-size: 16px;
+    }
+
+    .high-res-image {
+        background-image: url('image.png');
+    }
+}
